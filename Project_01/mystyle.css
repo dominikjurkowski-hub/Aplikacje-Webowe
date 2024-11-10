@@ -130,10 +130,10 @@ body {
     position: fixed;
     left: 0;
     top: 0;
-    background-color: #00000066; /* Black w/ opacity */
+    background-color: #00000066;
 }
 
-/* Modal Content/Box */
+
 .modal-content {
     background-color: beige;
     text-align: center;
