@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="navbar">
+    <a style="float:left" href="index.html"><img src="pictures/wildspace-high-resolution-logo-transparent.png" alt="logo"></a>
+    <a class="nav-item" href="index.html">Home</a>
+    <a class="nav-item activ" href="contact.html">Kontakt</a>
+    <a class="nav-item" href="gallery.html">Galeria</a>
+    <div id="clock" class="clock"></div>
+</div>
+
+<form>
+    <div class="contact-form">
+
+        <div class="form-column">
+            <label>E-Mail</label>
+            <input type="text" placeholder="Wpisz swój adres e-mail" required>
+
+            <label>Temat wiadomości:</label>
+            <select required>
+                <option value="">Wybierz temat</option>
+                <option value="question">Pytanie</option>
+                <option value="support">Wsparcie</option>
+                <option value="feedback">Opinie</option>
+            </select>
+        </div>
+
+
+        <div class="form-column">
+            <label>Wiadomość:</label>
+            <textarea placeholder="Wpisz swoją wiadomość tutaj" rows="15" required></textarea>
+
+            <input type="submit" value="Wyślij">
+        </div>
+
+    </div>
+</form>
+
+<script src="myscript.js"></script>
+
+
+<div class="footer">
+    <h3>Dominik Jurkowski</h3>
+</div>
+
+</body>
+</html>
