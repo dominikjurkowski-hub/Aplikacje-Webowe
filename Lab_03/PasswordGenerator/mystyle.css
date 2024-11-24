@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    margin: 100px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password-generator {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+.password-generator h1 {
+    font-size: xx-large;
+    margin-bottom: 20px;
+    color: cornflowerblue;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000040;
+}

@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: gray;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.table, th, td {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.th, td {
+    padding: 8px;
+    text-align: left;
+}
+select {
+    padding: 7px;
+    margin-right: 10px;
+    background-color: darkslategrey;
+    border-radius: 5px;
+}
+input {
+    padding: 8px;
+    margin-right: 10px;
+    background-color: darkslategrey;
+    border-radius: 5px;
+    border: none;
+}
+
+input::placeholder{
+    color: black;
+}

@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #8ecae6;
+}
+
+.container{
+    text-align: center;
+    background-color: #0e8f51;
+    padding: 30px;
+    border-radius: 30px;
+    height: 200px;
+    width: auto;
+
+}
+
+.timer{
+    font-size: xxx-large;
+    margin-top: 35px;
+
+
+}
+.buttons button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+
+
+}

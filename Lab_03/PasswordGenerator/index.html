@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Generator haseł</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+<div class="password-generator">
+    <h1>Generator haseł</h1>
+    <label>
+        <input type="number" id="min" placeholder="Minimalna długość hasła:">
+    </label>
+    <label>
+        <input type="number" id="max" placeholder="Maksymalna długość hasła:">
+    </label>
+    <label>
+        <input type="checkbox" id="upper">
+        Czy hasło ma zawierać wielkie litery?
+    </label>
+    <label>
+        <input type="checkbox" id="special">
+        Czy hasło ma zawierać znaki specjalne?
+    </label>
+    <button onclick="generate()">Wygeneruj hasło</button>
+</div>
+
+<script src="myscript.js"></script>
+</body>
+</html>
