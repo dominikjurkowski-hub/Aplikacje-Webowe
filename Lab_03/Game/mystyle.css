@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+
+canvas {
+    display: block;
+    background-image: url('elements/board-bg.jpg');
+    background-size: cover;
+    cursor: none;
+}
+#game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+#game-over button {
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+#game-over h1 {
+    color: white;
+    margin-bottom: 20px;
+}

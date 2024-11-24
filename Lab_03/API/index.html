@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+
+<h1>Produkty</h1>
+
+<div>
+    <input type="text" id="filterInput" placeholder="Filtruj...">
+    <select id="sortSelect">
+        <option value="original">Oryginalna kolejność</option>
+        <option value="asc">Rosnąco</option>
+        <option value="desc">Malejąco</option>
+    </select>
+</div>
+
+
+<table id="productsTable">
+    <thead>
+    <tr>
+        <th>Zdjęcie</th>
+        <th>Tytuł</th>
+        <th>Opis</th>
+    </tr>
+    </thead>
+    <tbody id="tableBody">
+    </tbody>
+</table>
+
+<script src="myscript.js"></script>
+</body>
+</html>
